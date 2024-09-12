@@ -1,8 +1,9 @@
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom';
 
 import imgLogo from '../logo.svg';
-import { ShoppingPage } from '../01-component-patterns/pages/Shopping.page';
+import { ShoppingPage } from '../01-component-formik/pages/Shopping.page';
 
 export const Navigation = () => {
   return (
